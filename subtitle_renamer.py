@@ -13,7 +13,7 @@ subtitle_language_code = "chi"
 
 file_path = None
 
-supprt_subtitle_format = ["srt", "ass"]
+supprt_subtitle_format = ["srt", "ass","ssa","vtt"]
 
 def subtile_renamer():
     files = []
