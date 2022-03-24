@@ -14,7 +14,7 @@ def subtile_renamer(file_path,subtitle_language_code):
 # ISO-639-1 (2-letter):http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # ISO-639-2/B (3-letter):https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes
     files = []
-    pprint(listdir(file_path))
+    #pprint(listdir(file_path))
     for f in listdir(file_path):
         if path.isfile(path.join(file_path, f)) and path.splitext(f)[1] != "":
             files.append(f)
