@@ -30,7 +30,7 @@ def subtile_renamer(file_path,subtitle_language_code):
             episode_num = episode[0][1]
             return f"S{season_num}E{episode_num}"
 
-        episode = re.findall(r"\[([0-9]{2,2})[x|X]([0-9]{2,2})\]", file)
+        episode = re.findall(r"\[?([0-9]{2,2})[x|X]([0-9]{2,2})\]?", file)
         if episode.__len__() != 0:
             season_num = episode[0][0]
             episode_num = episode[0][1]

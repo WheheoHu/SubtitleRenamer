@@ -10,7 +10,7 @@ python subtitle_renamer.py -filPath path/to/your/files
 ## Match Pattern
 `S(Season)E(Episode) eg.S10E01`
 
-`[(Season)x(Episode)] eg.[10x01]`
+`[(Season)x(Episode)] eg.[10x01]` or `(Season)x(Episode) eg.10x01`
 
 ## Arguments
  -h, --help : show this help message and exit
