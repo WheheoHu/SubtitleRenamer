@@ -73,11 +73,11 @@ def subtile_renamer(file_path,subtitle_language_code):
             print(video_file["file_name"]+video_file["file_extention"])
 
     # test before rename
-    pprint(subtitle_file_list)
+    #pprint(subtitle_file_list)
 
-    # for subtitle_file in subtitle_file_list:
-    #     os.rename(path.join(file_path, subtitle_file["file_name"]+subtitle_file["file_extention"]), path.join(
-    #         file_path, subtitle_file["new_name"]+"."+subtitle_language_code+subtitle_file["file_extention"]))
+    for subtitle_file in subtitle_file_list:
+        os.rename(path.join(file_path, subtitle_file["file_name"]+subtitle_file["file_extention"]), path.join(
+            file_path, subtitle_file["new_name"]+"."+subtitle_language_code+subtitle_file["file_extention"]))
 
 
 if __name__ == "__main__":
