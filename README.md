@@ -4,10 +4,13 @@ rename subtitle file to match video file name
 ## How To Use
 ⚠️subtitle and video files should put at the same folder⚠️
 
-⚠️only match `SXXEXX` (eg. `S10E03`) currently
 ```
 python subtitle_renamer.py -filPath path/to/your/files
 ```
+## Match Pattern
+`S(Season)E(Episode) eg.S10E01`
+
+`[(Season)x(Episode)] eg.[10x01]`
 
 ## Arguments
  -h, --help : show this help message and exit
