@@ -39,7 +39,7 @@ def subtile_renamer(file_path,subtitle_language_code):
     for file in files:
         file_extention = path.splitext(file)[1]
         file_name = path.splitext(file)[0]
-        t_file_extention = re.findall(r".([a-zA-z]*)", file_extention)[0]
+        t_file_extention = re.findall(r"\.([a-zA-z]{3,3})", file_extention)[0].lower()
         episode = find_episode(file)
 
         if t_file_extention in supprt_subtitle_format:
