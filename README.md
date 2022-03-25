@@ -19,6 +19,8 @@ python subtitle_renamer.py -filPath path/to/your/files
 
   -language, -L  : subtitle language (default is chi for chinese) is defined by the [ISO-639-1 (2-letter)](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [ISO-639-2/B (3-letter)](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) standard
 
+  -test, -t : test mode
+
 ## Subtitle Format Supported List
 `ass` and `ssa`
 
